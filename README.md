@@ -6,10 +6,11 @@ Cada estudiante trabajará desde un fork y enviará sus entregas mediante pull r
 
 ## Estructura de las entregas
 
-Cada estudiante debe crear una única carpeta dentro de `estudiantes/` y guardar allí todas sus actividades:
+Cada estudiante debe crear una única carpeta directamente en la raíz del repositorio y guardar allí todas sus actividades:
 
 ```text
-estudiantes/
+dm_2016325_2026_2/
+├── README.md
 └── nombres_apellidos/
     ├── taller_01/
     ├── taller_02/
@@ -55,7 +56,7 @@ git switch -c entrega-taller-01
 
 # Agregar los archivos de la actividad
 
-git add estudiantes/nombres_apellidos/taller_01
+git add nombres_apellidos/taller_01
 git commit -m "Entrega taller 01, Nombre Completo"
 git push -u origin entrega-taller-01
 ```
