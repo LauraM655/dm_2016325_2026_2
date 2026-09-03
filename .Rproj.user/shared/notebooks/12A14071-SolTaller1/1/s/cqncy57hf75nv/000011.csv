@@ -1,0 +1,23 @@
+"0","# Creamos la tabla"
+"0","tabla_citas <- tibble("
+"0","  cita = citas,"
+"0","  autor = autores"
+"0",")"
+"0",""
+"0","# Mostramos las citas en una tabla"
+"0","knitr::kable("
+"0","  head(tabla_citas, 10), "
+"0","  caption = ""Primeras citas extraídas de Quotes to Scrape"","
+"0","  col.names = c(""Cita"", ""Autor""), # Mejora: Nombres de columna claros"
+"0","  format = ""html"" # Usa ""pipe"" si prefieres formato markdown plano"
+"0",")"
+"2","Registered S3 methods overwritten by 'htmltools':
+  method               from         
+  print.html           tools:rstudio
+  print.shiny.tag      tools:rstudio
+  print.shiny.tag.list tools:rstudio
+"
+"2","Registered S3 method overwritten by 'rmarkdown':
+  method         from
+  print.paged_df     
+"

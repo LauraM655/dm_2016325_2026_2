@@ -1,0 +1,6 @@
+"0","quotes_tres_paginas <- map_dfr(urls_paginas_quotes, scrapear_quotes)"
+"0","knitr::kable("
+"0","  head(quotes_tres_paginas, 10), "
+"0","  caption = ""Resultados combinados de varias páginas"","
+"0","  col.names = c(""URL Origen"", ""Cita"", ""Autor"", ""Etiquetas"") # Nombres de columna claros"
+"0",")"
