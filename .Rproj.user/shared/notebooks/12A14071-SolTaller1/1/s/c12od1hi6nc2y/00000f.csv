@@ -1,0 +1,8 @@
+"0","# Calculamos un resumen rápido para validar la calidad del scraping"
+"0","libros_varias_paginas %>%"
+"0","  summarise("
+"0","    filas             = n(),"
+"0","    titulos_unicos    = n_distinct(titulo),"
+"0","    faltantes_precio  = sum(is.na(precio)),"
+"0","    duplicados_titulo = sum(duplicated(titulo))"
+"0","  )"

@@ -1,0 +1,8 @@
+"0",""
+"0","tabla_citas_limpia %>%"
+"0","  count(autor, sort = TRUE) %>%"
+"0","  head(10) %>%"
+"0","  knitr::kable("
+"0","    caption = ""Autores con más citas"","
+"0","    col.names = c(""Autor"", ""Número de citas"")"
+"0","  )"
