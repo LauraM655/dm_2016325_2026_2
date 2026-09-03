@@ -1,7 +1,0 @@
-"0","nodos_citas <- pagina_quotes %>%"
-"0","               html_elements("".quote"")"
-"0","length(nodos_citas)"
-"1","[1]"
-"1"," 10"
-"1","
-"

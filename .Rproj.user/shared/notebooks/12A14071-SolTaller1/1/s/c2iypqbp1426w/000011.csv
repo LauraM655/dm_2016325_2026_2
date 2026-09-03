@@ -1,7 +1,0 @@
-"0","# Cuántos libros hay en cada categoría"
-"0","libros_varias_paginas %>%"
-"0","  count(rating, sort = TRUE) %>%"
-"0","  knitr::kable("
-"0","    caption = ""Conteo de libros por rating"","
-"0","    col.names = c(""Rating"", ""Cantidad de libros"")"
-"0","  )"
