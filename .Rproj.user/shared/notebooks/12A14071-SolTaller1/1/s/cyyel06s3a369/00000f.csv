@@ -1,7 +1,0 @@
-"0","nodos_libros <- pagina_books %>%"
-"0","                html_elements(""article.product_pod"")"
-"0","length(nodos_libros)"
-"1","[1]"
-"1"," 20"
-"1","
-"

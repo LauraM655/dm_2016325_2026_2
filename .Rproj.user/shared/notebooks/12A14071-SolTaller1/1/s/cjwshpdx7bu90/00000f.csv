@@ -1,6 +1,0 @@
-"0","libros_varias_paginas <- map_dfr(urls_books, scrapear_libros)"
-"0","knitr::kable("
-"0","  head(libros_varias_paginas, 10), "
-"0","  caption = ""Libros combinados de varias páginas"","
-"0","  col.names = c(""URL Origen"", ""Título"", ""Precio (£)"", ""Disponibilidad"", ""Rating"", ""Enlace"")"
-"0",")"

@@ -1,4 +1,0 @@
-"0","# Guardamos las citas extraídas en un archivo CSV"
-"0","write_csv(quotes_tres_paginas, ""quotes_tres_paginas.csv"")"
-"0","# Guardamos los libros extraídos en otro archivo CSV"
-"0","write_csv(libros_varias_paginas, ""libros_varias_paginas.csv"")"
